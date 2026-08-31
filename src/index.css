@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    direction: rtl; /* تفعيل العربي من اليمين للشمال */
+  }
+  body {
+    /* ألوان مريحة للعين في الوضع الفاتح والداكن */
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+  }
+}
